@@ -1,0 +1,61 @@
+.header
+    display: grid
+    justify-content: center
+    grid-row-gap: 1.5rem
+    a
+        text-decoration: none
+        color: #fff
+    .buttons
+        display: grid
+        grid-template-columns: repeat(2, minmax(80px, 80px))
+        grid-gap: 1.3rem
+        font-size: 1.1rem
+        font-weight: bold
+        justify-items: center
+        justify-content: center
+        a
+            display: inline-block
+            padding: .3rem 1.5rem .2rem 1.5rem
+            border: 2px solid #868686
+            min-width: 70px
+            color: #868686
+            opacity: .5
+        a.active
+            color: #fff
+            opacity: 1
+            border: 2px solid #fff
+    .menu
+        display: grid
+        grid-auto-flow: column
+        font-size: .8rem
+        font-weight: bold
+        grid-gap: 2rem
+        align-items: center
+        a
+            color: #868686
+            opacity: .5
+            text-align: center
+        a.active
+            color: #fff
+            opacity: 1
+            cursor: default 
+    .btns-rounds
+        display: grid
+        grid-template-columns: repeat(3, minmax(90px, 95px))
+        grid-gap: .3rem
+        font-size: .8rem
+        font-weight: bold
+        justify-items: center
+        justify-content: center
+        a
+            padding: .35rem .5rem
+            border: .5px solid #868686
+            min-width: 70px
+            color: #868686
+            opacity: .5
+        a.active
+            border: 2.5px solid rgba(#868686, .5)
+            color: #fff
+            opacity: 1
+            cursor: default
+
