@@ -15,7 +15,7 @@
             grid-template-columns: repeat(3, minmax(87px, 87px))
             grid-gap: unset
 
-/* MAIN */
+/* MAIN 64 EQUIPOS */
 
 @media screen and (min-width: 600px)
     .matchs-container
@@ -61,3 +61,53 @@
 @media screen and (min-width: 1170px)
     .matchs-container
         grid-template-columns: repeat(auto-fit, minmax(290px, 25%))
+
+
+/* MAIN 32 EQUIPOS*/
+
+
+@media screen and (min-width: 600px)
+    .main32
+        width: 50%
+        margin: 0 auto
+        .matchs-container
+            grid-template-columns: repeat(auto-fit, minmax(290px, 100%))
+            .table
+                thead
+                    tr
+                        grid-template-columns: 130px 10px 130px
+                        th
+                            font-size: .9rem
+
+@media screen and (min-width: 992px)
+    .main32
+        .matchs-container
+            grid-template-columns: repeat(auto-fit, minmax(290px, 50%))
+            justify-content: center
+            .table
+                thead
+                    tr
+                        grid-template-columns: 130px 10px 130px
+                        th
+                            font-size: 1rem
+                tbody
+                    tr
+                        td
+                            img
+                                width: 30px
+                                max-width: 30px
+
+@media screen and (min-width: 1024px)
+    .main32
+        .matchs-container
+            .table
+                thead
+                    tr
+                        th
+                            font-size: .9rem
+                tbody
+                    tr
+                        td
+                            img
+                                width: 40px
+                                max-width: 40px
