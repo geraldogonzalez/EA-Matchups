@@ -74,9 +74,13 @@ img {
       border: 0.5px solid #868686;
       min-width: 70px;
       color: #868686;
-      opacity: 0.5; }
+      opacity: 0.5;
+      display: grid;
+      align-items: center; }
     .header .btns-rounds a.active {
       border: 2.5px solid rgba(134, 134, 134, 0.5);
+      -webkit-border: 2.5px solid rgba(134, 134, 134, 0.5);
+      -moz-border: 2.5px solid rgba(134, 134, 134, 0.5);
       color: #fff;
       opacity: 1;
       cursor: default; }
@@ -137,13 +141,22 @@ img {
           grid-row-gap: 0.1rem; }
           .main .matchs-container .table tbody tr .score span {
             font-size: 0.7rem; }
+        .main .matchs-container .table tbody tr .player {
+          display: grid;
+          grid-gap: 0.5rem;
+          grid-auto-flow: column;
+          align-items: center; }
+          .main .matchs-container .table tbody tr .player .fas {
+            font-size: 1rem;
+            color: #bced09; }
 
 .main32 .matchs-container {
   display: grid;
   grid-row-gap: 1rem;
   justify-items: center; }
   .main32 .matchs-container .table {
-    border-bottom: 2px solid rgba(134, 134, 134, 0.5); }
+    border-bottom: 2px solid rgba(134, 134, 134, 0.5);
+    transition: all 0.5s ease-in-out; }
     .main32 .matchs-container .table thead tr {
       display: grid;
       grid-column-gap: 0.5rem;
