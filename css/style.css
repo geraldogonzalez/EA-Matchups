@@ -146,15 +146,9 @@ img {
           grid-gap: 0.5rem;
           grid-auto-flow: column;
           align-items: center; }
-          .main .matchs-container .table tbody tr .player .fas, .main .matchs-container .table tbody tr .player .fab {
+          .main .matchs-container .table tbody tr .player .fas {
             font-size: 1rem;
             color: #fff; }
-          .main .matchs-container .table tbody tr .player .fa-futbol {
-            font-size: 1.5rem; }
-          .main .matchs-container .table tbody tr .player .fas-w {
-            color: #fff;
-            font-size: 1.2rem;
-            font-family: "Dancing Script", cursive; }
 
 .main32 .matchs-container {
   display: grid;
